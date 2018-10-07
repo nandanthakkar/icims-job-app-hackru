@@ -1,0 +1,12 @@
+<h4>
+    <span>Application</span>
+  </h4>
+    <table>
+      <thead><td>Application ID</td><td>Job ID</td><td>Person ID</td><td>Status</td></thead>
+      <tr *ngFor="let application of applications">
+        <td>{{application.id}} </td>
+        <td>{{application.jobId}} </td>
+        <td>{{application.personId}} </td>
+        <td>{{application.status}} </td>
+      </tr>
+    </table>
